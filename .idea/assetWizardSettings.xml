@@ -28,8 +28,9 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_code_black_24dp" />
-                            <entry key="sourceFile" value="F:\AndroidImages\about_icon.svg" />
+                            <entry key="assetSourceType" value="FILE" />
+                            <entry key="outputName" value="ic_dish_tv_icon" />
+                            <entry key="sourceFile" value="F:\AndroidImages\dish_tv_icon.svg" />
                           </map>
                         </option>
                       </PersistentState>

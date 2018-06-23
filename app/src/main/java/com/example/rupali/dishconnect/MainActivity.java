@@ -1,5 +1,7 @@
 package com.example.rupali.dishconnect;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -96,8 +98,20 @@ public class MainActivity extends AppCompatActivity
             //toolbarTitle.setText("About Us");
 
         } else if (id == R.id.nav_share) {
+            Intent intent = new Intent();
+            intent.setAction(Intent.ACTION_SEND);
+            intent.putExtra(Intent.EXTRA_TEXT,"Share our app and spread awareness :" +
+                    " https://play.google.com/store/apps/apps/details?456=DishConnect.456");
+            intent.setType("text/plain");
+            startActivity(intent);
 
         } else if (id == R.id.nav_source_code) {
+            Intent intent = new Intent();
+            intent.setAction(Intent.ACTION_VIEW);
+            String url = "https://github.com/rupali186/DishConnect";
+            intent.setData(Uri.parse(url));
+            //intent.setType("text/plain");
+            startActivity(intent);
 
         }
 
