@@ -5,21 +5,21 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/nav_buy"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="Buy" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/nav_dish_story"
+            android:icon="@drawable/ic_create_black_24dp"
+            android:title="Post your dish story" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:id="@+id/nav_reviews"
+            android:icon="@drawable/ic_rate_review_black_24dp"
+            android:title="Reviews" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about_icon"
+            android:title="About DishTV" />
     </group>
 
     <item android:title="Communicate">
@@ -29,9 +29,9 @@
                 android:icon="@drawable/ic_menu_share"
                 android:title="Share" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:id="@+id/nav_source_code"
+                android:icon="@drawable/ic_code_black_24dp"
+                android:title="Source Code On Github" />
         </menu>
     </item>
 
