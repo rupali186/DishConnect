@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".ImageActivity">
+    tools:context=".Show_Videos">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -17,19 +16,21 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             app:popupTheme="@style/AppTheme.PopupOverlay" >
-            <TextView
-                android:id="@+id/text"
-                android:layout_marginTop="10dp"
-                android:layout_gravity="center"
-                android:text="UPLOAD IMAGE FROM GALLERY "
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/text"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="UPLOAD FROM GALLERY OR START CAMERA"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
         </android.support.v7.widget.Toolbar>
 
     </android.support.design.widget.AppBarLayout>
     <android.support.v7.widget.RecyclerView
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
         android:layout_marginLeft="10dp"
-        android:id="@+id/recyclerView2"
+        android:orientation="vertical"
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 

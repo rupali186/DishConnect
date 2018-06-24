@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -39,6 +40,23 @@ public class RecyclerAdapter2 extends RecyclerView.Adapter<RecyclerAdapter2.User
                 context.startActivity(j);
             }
         });
+        holder.img2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //increase count
+
+            }
+        });
+        holder.textView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Start Activity to show comments
+                Intent intent = new Intent(context ,commentshow.class);
+                context.startActivity(intent);
+
+
+            }
+        });
     }
 
     @Override
@@ -47,9 +65,12 @@ public class RecyclerAdapter2 extends RecyclerView.Adapter<RecyclerAdapter2.User
     }
     public class UserHolder2 extends RecyclerView.ViewHolder {
         ImageView image,img2;
+        TextView textView;
         public UserHolder2(View itemView) {
             super(itemView);
             image=itemView.findViewById(R.id.image);
+            img2=itemView.findViewById(R.id.imgview);
+            textView=itemView.findViewById(R.id.text);
         }
     }
 }

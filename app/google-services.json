@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "655303793189",
+    "firebase_url": "https://dishconnect-72e1b.firebaseio.com",
+    "project_id": "dishconnect-72e1b",
+    "storage_bucket": "dishconnect-72e1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655303793189:android:c9d4ac0f973877fb",
+        "android_client_info": {
+          "package_name": "com.example.rupali.dishconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655303793189-pp84gd7iafvabtih5tl0ok5cksnnodq4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rupali.dishconnect",
+            "certificate_hash": "bb739c7181afc0cfbe0f0a33b9e6496d0cc1d15b"
+          }
+        },
+        {
+          "client_id": "655303793189-1sjlj39v5q5cpab155tfesl8d07hmebq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWAOMt6UMwmjlBeJ-luXKoxxFxg5lPjkk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655303793189-1sjlj39v5q5cpab155tfesl8d07hmebq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
